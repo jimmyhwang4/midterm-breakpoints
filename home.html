@@ -1,0 +1,273 @@
+<html>
+
+<title>Home | Father's Legacy</title>
+<!-- TITLE OF PAGE -->
+
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<!-- IMPORT TYPEFONT -->
+
+<style>
+
+  .bg {
+    filter: invert(10%);
+    background-image: url('background.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* BACKGROUND PICTURE */
+
+  .portraitBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+  }
+  /* BOX FOR PORTRAIT POSITION */
+
+@media only screen and (min-width: 600px) {
+  .portrait {
+    filter: invert(20%);
+    background-image: url('jimmy-hwang.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 320px;
+    border: 4px solid white;
+    text-align: center;
+  }
+}
+  /* PICTURE SCALING BEFORE PUTTING IN PORTRAIT BOX AND MAKING WHITE BORDER AROUND PICTURE */
+
+  @media only screen and (max-width: 600px) {
+    .portrait {
+      filter: invert(20%);
+      background-image: url('jimmy-hwang.jpg');
+      background-size: cover;
+      background-position: center;
+      width: 480px;
+      height: 480px;
+      border: 4px solid white;
+      text-align: center;
+    }
+  }
+    /* PICTURE SCALING BEFORE PUTTING IN PORTRAIT BOX AND MAKING WHITE BORDER AROUND PICTURE */
+
+  .nameText {
+    position: absolute;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    text-align: center;
+  }
+  /* PROPERTIES OF FATHER'S LEGACY NAME */
+
+@media only screen and (min-width: 600px) {
+  .menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 12%;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+  }
+  /* MENU BAR POSITIONING */
+}
+
+@media only screen and (max-width: 600px) {
+  .menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 12%;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+  }
+  /* MENU BAR POSITIONING */
+}
+
+  .homeLogo {
+    filter: invert(90%);
+    background-image: url('home.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* HOME LOGO DETAILS */
+
+  .musicLogo {
+    filter: invert(90%);
+    background-image: url('music.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* MUSIC LOGO DETAILS */
+
+  .globeLogo {
+    filter: invert(90%);
+    background-image: url('globe.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* GLOBE/TOURS LOGO DETAILS */
+
+  .homeLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER HOME LOGO */
+
+  .musicLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER MUSIC LOGO */
+
+  .globeLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER GLOBE/TOURS LOGO */
+
+@media only screen and (min-width: 600px) {
+  .socialBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 12%;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+  }
+}
+  /* SOCIAL MEDIA BAR PLACEMENT */
+
+@media only screen and (max-width: 600px) {
+  .socialBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 12%;
+    left: 20%;
+    right: 20%;
+    position: absolute;
+  }
+}
+  /* SOCIAL MEDIA BAR PLACEMENT */
+
+  .facebookLogo {
+    filter: invert(100%);
+    background-image: url('facebook.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* FACEBOOK LOGO PROPERTIES */
+
+  .instagramLogo {
+    filter: invert(90%);
+    background-image: url('instagram.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* INSTAGRAM LOGO PROPERTIES */
+
+  .youtubeLogo {
+    filter: invert(90%);
+    background-image: url('youtube.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* YOUTUBE LOGO PROPERTIES */
+
+  .soundcloudLogo {
+    filter: invert(100%);
+    background-image: url('soundcloud.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* SOUNDCLOUD LOGO PROPERTIES */
+
+  .emailLogo {
+    filter: invert(90%);
+    background-image: url('email.png');
+    background-size: cover;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  /* EMAIL LOGO PROPERTIES */
+
+  .facebookLogo:hover {
+    filter: invert(0%);
+  }
+  /* MOUSE HOVERING EFFECT OVER FACEBOOK LOGO */
+
+  .instagramLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER INSTAGRAM LOGO */
+
+  .youtubeLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER YOUTUBE LOGO */
+
+  .soundcloudLogo:hover {
+    filter: invert(0%);
+  }
+  /* MOUSE HOVERING EFFECT OVER SOUNDCLOUD LOGO */
+
+  .emailLogo:hover {
+    filter: invert(10%);
+  }
+  /* MOUSE HOVERING EFFECT OVER EMAIL LOGO */
+
+</style>
+
+<body>
+
+  <div class="bg"></div>
+  <!-- BACKGROUND IMAGE CLASS -->
+
+  <div class="portraitBox">
+    <div class="portrait"></div>
+    <div class="nameText">Father's Legacy</div>
+  </div>
+  <!-- PORTRAITBOX CLASS WITH PORTRAIT ADN NAMETEXT CLASSES INSIDE -->
+
+  <div class="menuBar">
+    <div class="homeLogo"></div>
+    <a href='music.html'><div class="musicLogo"></div></a>
+    <a href='tours.html'><div class="globeLogo"></div></a>
+  </div>
+  <!-- MENUBAR CLASS WITH LINKED LOGO CLASSES DIRECTING TO OTHER PAGES -->
+
+  <div class="socialBar">
+    <a href='https://www.facebook.com/jimmyhwang4'><div class="facebookLogo"></div></a>
+    <a href='https://www.instagram.com/jimmyhwang_/'><div class="instagramLogo"></div></a>
+    <div class="youtubeLogo"></div>
+    <div class="soundcloudLogo"></div>
+    <a href = "mailto: jimmyhwang@nyu.edu"><div class="emailLogo"></div></a>
+  </div>
+  <!-- SOCIALBAR CLASS WITH LINKED SOCIAL MEDIA LOGO CLASSES DIRECTING TO OTHER PAGES -->
+
+</body>
+
+</html>
